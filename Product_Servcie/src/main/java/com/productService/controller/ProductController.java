@@ -23,7 +23,7 @@ public class ProductController {
 
         productService.createProduct(productRequest);
     }
-
+// getting all the items
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse> getProducts(){
